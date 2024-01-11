@@ -16,8 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from myFirstApp.views import main
+from myFirstApp.views import main, first, usname
 urlpatterns = [
-    path('', main),
-    path('two/', include('myFirstApp.urls')),
+    path('', main, name='index'),
+    path('first/', first, name='first'),
+    path('name/', usname)
 ]

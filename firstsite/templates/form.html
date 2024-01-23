@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="{% url 'form-view' %}">
+        {% csrf_token %}
+        {{ form }}
+<!--        <label>-->
+<!--            <input type="text" name="my_name">-->
+<!--        </label>-->
+        <button type="submit">Send name</button>
+    </form>
+</body>
+</html>

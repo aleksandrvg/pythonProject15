@@ -6,10 +6,10 @@ class ArticeleAdmin(admin.ModelAdmin):
         return obj.created
 
 # Register your models here.
-admin.site.register(Article)
-admin.site.register(Customer)
-admin.site.register(CustomerSettings)
-admin.site.register(Publications)
-admin.site.register(Book)
-admin.site.register(Author)
-admin.site.register(Library)
+# admin.site.register(Article)
+# admin.site.register(Customer)
+# admin.site.register(CustomerSettings)
+# admin.site.register(Publications)
+# admin.site.register(Book)
+# admin.site.register(Author)
+# admin.site.register(Library)
